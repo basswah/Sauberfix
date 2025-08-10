@@ -1,0 +1,98 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact",
+    "call_us": "Call Us Now"
+  },
+  "contact_info": {
+    "call_us": "Call Us",
+    "email_us": "E-mail Us"
+  },
+  "hero": {
+    "title_part1": "We Clean,",
+    "title_part2": "You Relax.",
+    "paragraph": "cleaning services for all your needs",
+    "view_services_btn": "view all Services",
+    "flow_message1": {
+      "title": "Best",
+      "subtitle": "Cleaning Service"
+    },
+    "flow_message2": {
+      "title": "Qualified",
+      "subtitle": "Work Team"
+    }
+  },
+  "about_us": {
+    "title": "about us",
+    "paragraph": "As an experienced company, we strive to continuously optimize our services and provide you with the best solutions. Your satisfaction is our top priority, and we pride ourselves on always striving for outstanding quality."
+  },
+  "what_we_do": {
+    "title": "what we Do",
+    "paragraph": "Always Provide The Best Service",
+    "services": [
+      {
+        "id": "1",
+        "icon": "./photos/windowClean.svg",
+        "title": "Glass Cleaning",
+        "description": "Interior & exterior window cleaning, frame cleaning, shopfront glass, mirrors, and all glass surfaces."
+      },
+      {
+        "id": "2",
+        "icon": "./photos/office.svg",
+        "title": "Office Cleaning",
+        "description": "Dust removal, floor cleaning, and desk organizing for a tidy and productive workspace."
+      },
+      {
+        "id": "3",
+        "icon": "./photos/building.svg",
+        "title": "Building Cleaning",
+        "description": "Cleaning of interior and exterior walls, including staircases and entryways."
+      },
+      {
+        "id": "4",
+        "icon": "./photos/track.svg",
+        "title": "Space Clearing",
+        "description": "Clearing spaces after moving out, bereavement, or workspace shutdowns."
+      }
+    ]
+  },
+  "contact_us": {
+    "title": "Contact Us",
+    "text": "Fill up the form and our Team will get <br /> back to you within 24 hours.",
+    "phone_label": "Phone",
+    "mail_label": "Mail",
+    "location_label": "Location"
+  },
+  "form": {
+    "name_label": "Name*",
+    "email_label": "Email*",
+    "message_label": "Message*",
+    "name_placeholder": "Your Name",
+    "email_placeholder": "Your Email",
+    "message_placeholder": "Your Message",
+    "submit_button": "Submit",
+    "name_required": "Name is required",
+    "email_invalid": "Invalid email format",
+    "email_required": "Email is required",
+    "message_required": "Message is required",
+    "message_min_length": "Message must be at least 20 characters long"
+  },
+
+  "footer": {
+    "company_name": "Sauberfix",
+    "company_slogan": "Leo elementum iaculis quam massa vitae odio sed. Morbi tincidunt senectus.",
+    "links_title": "Links",
+    "services_title": "Services",
+    "contact_title": "Contact Us",
+    "contact_text": "Our Support and Sales team is available 24/7 to answer your queries",
+    "address": "1111 Avenue Francis Road, Laval, USA",
+    "phone": "0155 63742675",
+    "email": "kontakt@sauberfix.info",
+    "follow_us": "Follow Us",
+    "copyright": "COPYRIGHT © 2023 | DESIGN BY",
+    "terms_of_use": "TERM OF USE",
+    "privacy_policy": "PRIVACY POLICY"
+  }
+}

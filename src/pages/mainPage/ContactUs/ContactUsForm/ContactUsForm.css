@@ -1,0 +1,99 @@
+.form-page-container {
+  width: 440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+  padding: 1rem 2rem;
+  border-radius: 7.5px;
+  box-shadow: 0 4px 6px var(--shadow-color-md);
+}
+
+.contact-form {
+  padding: 0 1.5rem;
+  border-radius: var(--border-radius-lg);
+  width: 100%;
+}
+
+.form-group {
+  margin-block-end: 1.5rem;
+  font-family: var(--font-family-main);
+}
+
+.form-group label {
+  display: block;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-lg);
+  color: var(--text-color-light);
+  margin-block-end: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 0;
+  border-radius: var(--border-radius-sm);
+  font-size: var(--font-size-md);
+  background-color: #fff;
+  transition: outline 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: 2px solid var(--primary-color);
+}
+
+.form-error {
+  outline: 2px solid var(--error-color-outline) !important;
+  background-color: var(--error-color-background) !important;
+}
+.form-error::placeholder {
+  color: var(--text-color-light);
+}
+
+.form-group textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.error-message {
+  color: var(--error-color-text);
+  font-size: var(--font-size-sm);
+  margin-block-start: 0.5rem;
+  font-weight: var(--font-weight-medium);
+}
+.form-button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.contact-form button {
+  width: 80%;
+  background-color: var(--accent-color);
+  color: #373737;
+  border: none;
+  padding: 16px 38px;
+  border-radius: var(--border-radius-sm);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-form button:hover:not(:disabled) {
+  background-color: #e0a316;
+  transform: translateY(-2px);
+}
+
+.contact-form button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .form-page-container {
+    width: 80%;
+  }
+}

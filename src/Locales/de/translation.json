@@ -1,0 +1,96 @@
+{
+  "navbar": {
+    "home": "Startseite",
+    "about": "Über Uns",
+    "services": "Dienstleistungen",
+    "contact": "Kontakt",
+    "call_us": "Jetzt Anrufen"
+  },
+  "contact_info": {
+    "call_us": "Rufen Sie uns an",
+    "email_us": "Senden Sie uns eine E-Mail"
+  },
+  "hero": {
+    "title_part1": "Wir Reinigen.",
+    "title_part2": "Sie Entspannen.",
+    "paragraph": "Reinigungsdienste für all Ihre Bedürfnisse",
+    "view_services_btn": "Alle Dienstleistungen Anzeigen",
+    "flow_message1": {
+      "title": "Beste",
+      "subtitle": "Reinigungsdienste"
+    },
+    "flow_message2": {
+      "title": "Qualifiziertes",
+      "subtitle": "Arbeitsteam"
+    }
+  },
+  "about_us": {
+    "title": "Über Uns",
+    "paragraph": "Als erfahrenes Unternehmen Streben Wir danach Unsere Dienstleistungen kontinuierlich zu optimieren und Ihnen die besten Lösungen zu bieten. Ihre Zufriedenheit hat für uns höchste Priorität, und wir sind stolz darauf, stets nach herausragender Qualität zu streben."
+  },
+  "what_we_do": {
+    "title": "Was wir tun",
+    "paragraph": "Immer den besten Service bieten",
+    "services": [
+      {
+        "id": "1",
+        "icon": "./photos/windowClean.svg",
+        "title": "Glasreinigung",
+        "description": "Innen- und Außenfensterreinigung, Rahmenreinigung, Schaufensterglas, Spiegel und alle Glasoberflächen."
+      },
+      {
+        "id": "2",
+        "icon": "./photos/office.svg",
+        "title": "Büroreinigung",
+        "description": "Staubentfernung, Bodenreinigung und Schreibtischorganisation für einen aufgeräumten und produktiven Arbeitsplatz."
+      },
+      {
+        "id": "3",
+        "icon": "./photos/building.svg",
+        "title": "Gebäudereinigung",
+        "description": "Reinigung von Innen- und Außenwänden, einschließlich Treppenhäusern und Eingangsbereichen."
+      },
+      {
+        "id": "4",
+        "icon": "./photos/track.svg",
+        "title": "Entrümpelung",
+        "description": "Räumung von Räumen nach Umzug, Todesfall oder Betriebsschließungen."
+      }
+    ]
+  },
+  "contact_us": {
+    "title": "Kontaktieren Sie uns",
+    "text": "Füllen sie das formluar aus und unser Team wird sich umgehend bei ihnen melden.",
+    "phone_label": "Telefon",
+    "mail_label": "E-Mail",
+    "location_label": "Standort"
+  },
+  "form": {
+    "name_label": "Name*",
+    "email_label": "Email*",
+    "message_label": "Nachricht",
+    "name_placeholder": "Ihr Name",
+    "email_placeholder": "Ihre E-Mail",
+    "message_placeholder": "Ihre Nachricht",
+    "submit_button": "Senden",
+    "name_required": "Name ist erforderlich",
+    "email_invalid": "Ungültiges E-Mail-Format",
+    "email_required": "E-Mail ist erforderlich",
+    "message_required": "Nachricht ist erforderlich",
+    "message_min_length": "Die Nachricht muss mindestens 20 Zeichen lang sein"
+  },
+  "footer": {
+    "company_name": "Sauberfix",
+    "company_slogan": "Leo elementum iaculis quam massa vitae odio sed. Morbi tincidunt senectus.",
+    "links_title": "Links",
+    "services_title": "Dienstleistungen",
+    "contact_title": "Kontaktieren Sie Uns",
+    "contact_text": "Unser Support- und Verkaufsteam steht Ihnen rund um die Uhr zur Beantwortung Ihrer Anfragen zur Verfügung",
+    "email_address": "kontakt@sauberfix.info",
+    "phone_number": "0155 63742675",
+    "follow_us": "Folgen Sie uns",
+    "copyright": "COPYRIGHT © 2023 | DESIGN VON",
+    "terms_of_use": "TERM OF USE",
+    "privacy_policy": "PRIVACY POLICY"
+  }
+}

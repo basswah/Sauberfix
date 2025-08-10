@@ -1,0 +1,96 @@
+{
+  "navbar": {
+    "home": "الرئيسية",
+    "about": "معلومات عنا",
+    "services": "خدماتنا",
+    "contact": "تواصل معنا",
+    "call_us": "اتصل بنا الآن"
+  },
+  "contact_info": {
+    "call_us": "اتصل بنا",
+    "email_us": "راسلنا"
+  },
+  "hero": {
+    "title_part1": "نحن ننظف،",
+    "title_part2": "وأنت تسترخي.",
+    "paragraph": "خدمات تنظيف لجميع احتياجاتك",
+    "view_services_btn": "عرض جميع الخدمات",
+    "flow_message1": {
+      "title": "أفضل",
+      "subtitle": "خدمة تنظيف"
+    },
+    "flow_message2": {
+      "title": "فريق عمل",
+      "subtitle": "مؤهل"
+    }
+  },
+  "about_us": {
+    "title": "معلومات عنا",
+    "paragraph": "كشركة ذات خبرة، نسعى باستمرار لتحسين خدماتنا وتقديم أفضل الحلول لك. رضاؤك هو أولويتنا القصوى، ونحن نفخر دائما بالسعي لتحقيق جودة متميزة."
+  },
+  "what_we_do": {
+    "title": "ما نقوم به",
+    "paragraph": "نقدم دائما أفضل خدمة",
+    "services": [
+      {
+        "id": "1",
+        "icon": "./photos/windowClean.svg",
+        "title": "تنظيف الزجاج",
+        "description": "تنظيف النوافذ الداخلية والخارجية، تنظيف الإطارات، وواجهات المحلات، والمرايا، وجميع أسطح الزجاج."
+      },
+      {
+        "id": "2",
+        "icon": "./photos/office.svg",
+        "title": "تنظيف المكاتب",
+        "description": "إزالة الغبار، تنظيف الأرضيات، وتنظيم المكاتب لبيئة عمل مرتبة ومنتجة."
+      },
+      {
+        "id": "3",
+        "icon": "./photos/building.svg",
+        "title": "تنظيف المباني",
+        "description": "تنظيف الجدران الداخلية والخارجية، بما في ذلك السلالم ومداخل المباني."
+      },
+      {
+        "id": "4",
+        "icon": "./photos/track.svg",
+        "title": "تخليص المساحات",
+        "description": "تخليص المساحات بعد الانتقال، أو الحزن، أو إغلاق أماكن العمل."
+      }
+    ]
+  },
+  "contact_us": {
+    "title": "تواصل معنا",
+    "text": "املأ النموذج وسيعاود فريقنا <br /> الاتصال بك في غضون 24 ساعة.",
+    "phone_label": "الهاتف",
+    "mail_label": "البريد الإلكتروني",
+    "location_label": "الموقع"
+  },
+  "form": {
+    "name_label": "الاسم*",
+    "email_label": "البريد الإلكتروني*",
+    "message_label": "الرسالة*",
+    "name_placeholder": "اسمك",
+    "email_placeholder": "بريدك الإلكتروني",
+    "message_placeholder": "رسالتك",
+    "submit_button": "إرسال",
+    "name_required": "الاسم مطلوب",
+    "email_invalid": "صيغة البريد الإلكتروني غير صحيحة",
+    "email_required": "البريد الإلكتروني مطلوب",
+    "message_required": "الرسالة مطلوبة",
+    "message_min_length": "يجب أن تحتوي الرسالة على 20 حرفًا على الأقل"
+  },
+  "footer": {
+    "company_name": "ساوبرفكس",
+    "company_slogan": "Leo elementum iaculis quam massa vitae odio sed. Morbi tincidunt senectus.",
+    "links_title": "روابط",
+    "services_title": "خدمات",
+    "contact_title": "تواصل معنا",
+    "contact_text": "فريق الدعم والمبيعات لدينا متاح على مدار الساعة للإجابة على استفساراتك",
+    "email_address": "kontakt@sauberfix.info",
+    "phone_number": "0155 63742675",
+    "follow_us": "تابعنا",
+    "copyright": "حقوق النشر © 2023 | تصميم بواسطة",
+    "terms_of_use": "شروط الاستخدام",
+    "privacy_policy": "سياسة الخصوصية"
+  }
+}

@@ -1,0 +1,50 @@
+.WhatWeDoCard {
+  width: 290px;
+  height: 380px;
+  border-radius: var(--border-radius-sm);
+  box-shadow: 0px 3.87px 87px 0px var(--shadow-color-lg);
+  background: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-lg);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.WhatWeDoCard:hover {
+  box-shadow: 0 8px 16px rgba(var(--secondary-color-rgb), 0.2); /* إضافة ظل خفيف */
+}
+
+.card-icon {
+  width: 68px;
+  margin-bottom: var(--spacing-sm);
+}
+
+.card-title {
+  font-weight: var(--font-weight-semibold);
+  font-size: 27.07px;
+  line-height: 24.17px;
+  letter-spacing: 0.29px;
+  text-align: center;
+  color: #343434;
+}
+
+.card-description {
+  max-width: 80%;
+  font-weight: var(--font-weight-regular);
+  font-size: 21.27px;
+  line-height: 25.13px;
+  letter-spacing: 0.29px;
+  text-align: center;
+  color: var(--text-color-dark);
+}
+
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 24px;
+  }
+  .card-description {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,128 @@
+.Contact {
+  background-color: var(--accent-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-md) 90px;
+  color: var(--gray-color);
+}
+
+.contact-text {
+  font-size: var(--font-size-md);
+}
+
+.contct-social {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+}
+
+.contct-social a {
+  color: var(--gray-color);
+}
+
+.contct-social svg {
+  width: 30px;
+  height: auto;
+}
+
+.contact-text span {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-md);
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.contact-text .contact-bold {
+
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-md);
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.contact-call-us,
+.contact-Email {
+  display: flex;
+  gap: var(--spacing-xs);
+  align-items: center;
+}
+
+.contact-call-us svg,
+.contact-Email svg {
+  width: 30px;
+  height: auto;
+}
+
+@media (max-width: 1280px) {
+  .contact-text {
+    font-size: var(--font-size-sm);
+  }
+  .contact-text span {
+    font-size: var(--font-size-sm);
+  }
+  .contact-text .contact-bold {
+    font-size: var(--font-size-sm);
+    display: block;
+  }
+  .contct-social {
+    gap: var(--spacing-md);
+  }
+  .contct-social svg {
+    width: 24px;
+  }
+  .contact-call-us svg,
+  .contact-Email svg {
+    width: 22px;
+  }
+}
+
+@media (max-width: 950px) {
+  .Contact {
+    flex-direction: row-reverse;
+  }
+  .contact-call-us {
+    display: none;
+  }
+  .contact-text {
+    font-size: 11px;
+  }
+  .contact-text span {
+    font-size: 14px;
+  }
+  .contact-text .contact-bold {
+    font-size: 14px;
+  }
+  .contact-call-us svg,
+  .contact-Email svg {
+    width: 18px;
+  }
+  .contct-social svg {
+    width: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-text {
+    font-size: 10px;
+  }
+  .contact-text span {
+    font-size: 13px;
+  }
+  .contact-text .contact-bold {
+    font-size: 13px;
+  }
+  .contct-social {
+    gap: var(--spacing-sm);
+  }
+  .contct-social svg {
+    width: 20px;
+  }
+  .Contact {
+    padding: var(--spacing-md) 30px;
+  }
+}
+@media (max-width: 481px) {
+  .Contact {
+    padding: var(--spacing-md) 30px;
+  }
+}

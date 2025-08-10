@@ -1,0 +1,67 @@
+:root {
+  /* ===================== الألوان (Colors) ===================== */
+  --primary-color: #176c86;
+  --secondary-color: #2296b9;
+  --secondary-color-rgb: 34, 150, 185;
+  --accent-color: #ffba18;
+  --text-color-dark: #353b42;
+  --text-color-light: #fef5e7;
+  --background-color: #f4f6fb;
+  --gray-color: #464646;
+  --shadow-color-sm: rgba(0, 0, 0, 0.05);
+  --shadow-color-md: rgba(0, 0, 0, 0.07);
+  --shadow-color-lg: rgba(0, 0, 0, 0.15);
+
+  /* ===================== ألوان الأخطاء (Error Colors) ===================== */
+  --error-color-text: #d72929;
+  --error-color-outline: rgba(255, 17, 17, 0.5);
+  --error-color-background: rgba(255, 17, 17, 0.455);
+
+  /* ===================== الخطوط (Fonts) ===================== */
+  --font-family-main: "Poppins", sans-serif;
+  --font-family-arabic: "Cairo", sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* ===================== القياسات والمسافات (Sizes & Spacing) ===================== */
+  --font-size-sm: 1rem;
+  --font-size-md: 1.125rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.75rem;
+  --font-size-xxl: 2.375rem;
+  --font-size-xxxl: 3rem;
+
+  --spacing-xs: 5px;
+  --spacing-sm: 10px;
+  --spacing-md: 16px;
+  --spacing-lg: 20px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 50px;
+
+  /* ===================== الأبعاد (Dimensions) ===================== */
+  --border-radius-sm: 12px;
+  --border-radius-md: 20px;
+  --border-radius-lg: 32px;
+  --border-radius-hero: 350px;
+  --main-padding: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: var(--font-family-main);
+}
+
+[dir="rtl"] * {
+  font-family: var(--font-family-arabic);
+}
+
+body {
+  background-color: var(--background-color);
+}

@@ -1,0 +1,22 @@
+.WhatWeDo {
+  background-image: url("../../../assets/WhatWeDo-Background.png");
+  background-position: center;
+  background-size: cover;
+  padding: 75px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-xl);
+}
+
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-xl);
+}
+
