@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import Layout from "./layout/Layout";
+import Loader from "./components/Loading/Loading";
 
 const MainPage = lazy(() => import("./pages/mainPage/MainPage"));
 const Error404 = lazy(() => import("./pages/Error404/Error404"));
@@ -8,12 +9,14 @@ const ServicesPage = lazy(() => import("./pages/ServicesPage/ServicesPage"));
 const Impressum = lazy(() => import("./pages/Impressum/Impressum"));
 const Datenschutz = lazy(() => import("./pages/Datenschutz/Datenschutz"));
 const AGB = lazy(() => import("./pages/AGB/AGB"));
-const Barrierefreiheit = lazy(() => import("./pages/Barrierefreiheit/Barrierefreiheit"));
+const Barrierefreiheit = lazy(
+  () => import("./pages/Barrierefreiheit/Barrierefreiheit")
+);
 
 const Router = () => {
   return (
     <BrowserRouter>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<Loader />}>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<MainPage />} />

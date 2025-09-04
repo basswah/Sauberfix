@@ -76,7 +76,7 @@
         "description": "Räumung von Räumen nach dem Auszug, Trauerfällen oder Schließungen von Arbeitsplätzen.",
         "img": "./photos/ServicesPagePhotos/SpaceClearing.webp",
         "button": "Termin vereinbaren",
-        "url": ""
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSd9Nt4DeQPIkcV-K9JyuTG2TAVV_YUc3LrVvDh4SkuaEsIshg/viewform"
       },
       {
         "id": "2",
@@ -84,7 +84,7 @@
         "description": "Reinigung von innen- und Außenfenstern, Rahmenreinigung, Schaufensterglas, Spiegeln und allen Glasoberflächen.",
         "img": "./photos/ServicesPagePhotos/GlassCleaning.webp",
         "button": "Termin vereinbaren",
-        "url": ""
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSfHamsrVv3VTmmcmrATO19Axb0shp_8HHoiJyQ7KwLIRPVXLQ/viewform"
       },
       {
         "id": "3",
@@ -92,7 +92,7 @@
         "description": "Staubentfernung, Bodenreinigung und Schreibtischorganisation für einen ordentlichen und produktiven Arbeitsplatz.",
         "img": "./photos/ServicesPagePhotos/OfficeCleaning.webp",
         "button": "Termin vereinbaren",
-        "url": ""
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLScbUakq8oSznbkyOJlHZGIbTlF9CEoAgusMlh1mu4uhsG3EpA/viewform"
       },
       {
         "id": "4",
@@ -100,7 +100,7 @@
         "description": "Reinigung von innen- und Außenwänden, einschließlich Treppenhäusern und Eingängen.",
         "img": "./photos/ServicesPagePhotos/BuildingCleaning.webp",
         "button": "Termin vereinbaren",
-        "url": ""
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSd9Nt4DeQPIkcV-K9JyuTG2TAVV_YUc3LrVvDh4SkuaEsIshg/viewform"
       },
       {
         "id": "5",
@@ -108,7 +108,7 @@
         "description": "Sie können mehrere Dienstleistungen in einem Buch auswählen.",
         "img": "./photos/ServicesPagePhotos/CustomCleaningServices.webp",
         "button": "Termin vereinbaren",
-        "url": ""
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLScobgoredqO2lDYPQv7QzDLgq5CSL3xL5QzCZBwxCjova0U8w/viewform"
       }
     ]
   },

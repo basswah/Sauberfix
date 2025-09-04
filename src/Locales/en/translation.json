@@ -76,7 +76,7 @@
         "description": "Clearing spaces after moving out, bereavement, workspace shutdowns, or construction debris removal.",
         "img": "./photos/ServicesPagePhotos/SpaceClearing.webp",
         "button": "Book an appointment",
-        "url": ""
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSd9Nt4DeQPIkcV-K9JyuTG2TAVV_YUc3LrVvDh4SkuaEsIshg/viewform"
       },
       {
         "id": "2",
@@ -84,7 +84,7 @@
         "description": "Interior & exterior window cleaning, frame cleaning, shopfront glass, mirrors, and all glass surfaces.",
         "img": "./photos/ServicesPagePhotos/GlassCleaning.webp",
         "button": "Book an appointment",
-        "url": ""
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSfHamsrVv3VTmmcmrATO19Axb0shp_8HHoiJyQ7KwLIRPVXLQ/viewform"
       },
       {
         "id": "3",
@@ -92,7 +92,7 @@
         "description": "Dust removal, floor cleaning, and desk organizing for a tidy and productive workspace.",
         "img": "./photos/ServicesPagePhotos/OfficeCleaning.webp",
         "button": "Book an appointment",
-        "url": ""
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLScbUakq8oSznbkyOJlHZGIbTlF9CEoAgusMlh1mu4uhsG3EpA/viewform"
       },
       {
         "id": "4",
@@ -100,7 +100,7 @@
         "description": "Cleaning of interior and exterior walls, including staircases and entryways.",
         "img": "./photos/ServicesPagePhotos/BuildingCleaning.webp",
         "button": "Book an appointment",
-        "url": ""
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSd9Nt4DeQPIkcV-K9JyuTG2TAVV_YUc3LrVvDh4SkuaEsIshg/viewform"
       },
       {
         "id": "5",
@@ -108,7 +108,7 @@
         "description": "You can choose several services in one book.",
         "img": "./photos/ServicesPagePhotos/CustomCleaningServices.webp",
         "button": "Book an appointment",
-        "url": ""
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLScobgoredqO2lDYPQv7QzDLgq5CSL3xL5QzCZBwxCjova0U8w/viewform"
       }
     ]
   },
