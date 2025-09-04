@@ -6,7 +6,8 @@ import { IoMailOpenOutline } from "react-icons/io5";
 import { TbPhoneCall } from "react-icons/tb";
 import { LogoFooter } from "../../assets";
 import "./Footer.css";
-import type { Service } from "../../types";
+import type { Service } from "../../Tyeps";
+
 
 const Footer = () => {
   const { t } = useTranslation();

@@ -3,12 +3,13 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import "./ContactUsForm.css";
 import { useTranslation } from "react-i18next";
 import type { FormData } from "../../../../Tyeps";
-import { ContactUsFormSchema } from "../../../../components/forms/formValidationSchema";
+import { ContactUsFormSchema } from "../../../../components/Forms/formValidationSchema";
 
 const ContactUsForm = () => {
   const { t } = useTranslation();
 
   const [submittedData, setSubmittedData] = useState<FormData | null>(null);
+  console.log(submittedData);
 
   const initialValues: FormData = {
     name: "",
