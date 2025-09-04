@@ -8,7 +8,9 @@
   },
   "contact_info": {
     "call_us": "Rufen Sie uns an",
-    "email_us": "Senden Sie uns eine E-Mail"
+    "email_us": "Senden Sie uns eine E-Mail",
+    "phone_number": "+49 155 63742675",
+    "email_address": "kontakt@sauberfix.info"
   },
   "hero": {
     "title_part1": "Wir Reinigen.",
@@ -29,14 +31,14 @@
     "paragraph": "Als erfahrenes Unternehmen Streben Wir danach Unsere Dienstleistungen kontinuierlich zu optimieren und Ihnen die besten Lösungen zu bieten. Ihre Zufriedenheit hat für uns höchste Priorität, und wir sind stolz darauf, stets nach herausragender Qualität zu streben."
   },
   "what_we_do": {
-    "title": "Was wir tun",
-    "paragraph": "Immer den besten Service bieten",
-    "services": [
+    "title": "Unsere Dienstleistungen",
+    "paragraph": "Wir Machen Sauberkeit Einfacher Für Sie",
+    "services_list": [
       {
         "id": "1",
         "icon": "./photos/windowClean.svg",
         "title": "Glasreinigung",
-        "description": "Innen- und Außenfensterreinigung, Rahmenreinigung, Schaufensterglas, Spiegel und alle Glasoberflächen."
+        "description": "Innen- und Außenreinigung von Fenstern, Rahmenreinigung, Schaufensterglas, Spiegeln und allen Glasoberflächen."
       },
       {
         "id": "2",
@@ -54,21 +56,74 @@
         "id": "4",
         "icon": "./photos/track.svg",
         "title": "Entrümpelung",
-        "description": "Räumung von Räumen nach Umzug, Todesfall oder Betriebsschließungen."
+        "description": "Räumung von Räumen nach Auszug, Todesfall oder Betriebsschließungen."
+      }
+    ]
+  },
+  "services_page": {
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "Wir Machen Sauberkeit Einfacher Für Sie",
+    "contactUs": {
+      "title": "Haben Sie Fragen?",
+      "paragraph": "Kontaktieren Sie uns Per E-Mail Oder Telefonisch",
+      "email": "E-Mail: ",
+      "phone": "Telefon: "
+    },
+    "services_list": [
+      {
+        "id": "1",
+        "title": "Entrümpelung",
+        "description": "Räumung von Räumen nach dem Auszug, Trauerfällen oder Schließungen von Arbeitsplätzen.",
+        "img": "./photos/ServicesPagePhotos/SpaceClearing.webp",
+        "button": "Termin vereinbaren",
+        "url": ""
+      },
+      {
+        "id": "2",
+        "title": "Glasreinigung",
+        "description": "Reinigung von innen- und Außenfenstern, Rahmenreinigung, Schaufensterglas, Spiegeln und allen Glasoberflächen.",
+        "img": "./photos/ServicesPagePhotos/GlassCleaning.webp",
+        "button": "Termin vereinbaren",
+        "url": ""
+      },
+      {
+        "id": "3",
+        "title": "Büroreinigung",
+        "description": "Staubentfernung, Bodenreinigung und Schreibtischorganisation für einen ordentlichen und produktiven Arbeitsplatz.",
+        "img": "./photos/ServicesPagePhotos/OfficeCleaning.webp",
+        "button": "Termin vereinbaren",
+        "url": ""
+      },
+      {
+        "id": "4",
+        "title": "Gebäudereinigung",
+        "description": "Reinigung von innen- und Außenwänden, einschließlich Treppenhäusern und Eingängen.",
+        "img": "./photos/ServicesPagePhotos/BuildingCleaning.webp",
+        "button": "Termin vereinbaren",
+        "url": ""
+      },
+      {
+        "id": "5",
+        "title": "Angepasste Reinigungsdienst",
+        "description": "Sie können mehrere Dienstleistungen in einem Buch auswählen.",
+        "img": "./photos/ServicesPagePhotos/CustomCleaningServices.webp",
+        "button": "Termin vereinbaren",
+        "url": ""
       }
     ]
   },
   "contact_us": {
     "title": "Kontaktieren Sie uns",
-    "text": "Füllen sie das formluar aus und unser Team wird sich umgehend bei ihnen melden.",
+    "text": "Füllen Sie das Formular aus und unser Team wird sich <br /> innerhalb von 24 Stunden bei Ihnen melden.",
     "phone_label": "Telefon",
     "mail_label": "E-Mail",
-    "location_label": "Standort"
+    "location_label": "Standort",
+    "address": "Hauptstraße 36, 71686 Remseck a. N."
   },
   "form": {
     "name_label": "Name*",
-    "email_label": "Email*",
-    "message_label": "Nachricht",
+    "email_label": "E-Mail*",
+    "message_label": "Nachricht*",
     "name_placeholder": "Ihr Name",
     "email_placeholder": "Ihre E-Mail",
     "message_placeholder": "Ihre Nachricht",
@@ -79,18 +134,86 @@
     "message_required": "Nachricht ist erforderlich",
     "message_min_length": "Die Nachricht muss mindestens 20 Zeichen lang sein"
   },
+  "impressum": {
+    "title": "IMPRESSUM",
+    "companyName": "SauberFix Gebäudereinigung",
+    "address": "Hauptstraße 36",
+    "city": "71686 Remseck a. N.",
+    "phone": "+49 (0) 15254153324",
+    "email": "kontakt@sauberfix.info",
+    "website": "www.sauberfix.info",
+    "managingDirectors": "Geschäftsführer: Ghaith Alkhouli & Abdullah Alkhouli GbR",
+    "description": "Dies ist das Impressum von SauberFix, Ihrer professionellen Reinigungsfirma."
+  },
+  "datenschutz": {
+    "title": "DATENSCHUTZ",
+    "intro_text": "Die zur Vertragserfüllung erforderlichen personenbezogenen Daten werden gemäß DSGVO gespeichert und verarbeitet. Eine Weitergabe an Dritte erfolgt nur, soweit dies zur Leistungserbringung notwendig ist.",
+    "control_title": "Kontrolle über Daten",
+    "control_text_1": "Der Auftragnehmer, SauberFix Gebäudereinigung, verpflichtet sich, alle personenbezogenen Daten des Auftraggebers vertraulich zu behandeln und ausschließlich zur Durchführung und Abwicklung der vereinbarten Reinigungsleistungen zu verwenden.",
+    "control_text_2": "Der Auftraggeber hat jederzeit das Recht, Auskunft über die bei uns gespeicherten personenbezogenen Daten zu verlangen, deren Herkunft und Empfänger sowie den Zweck der Datenverarbeitung. Ebenso kann der Auftraggeber die Berichtigung, Sperrung oder Löschung seiner Daten fordern, sofern keine gesetzliche Aufbewahrungspflicht entgegensteht.",
+    "control_text_3": "Die Datenverarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO zur Erfüllung eines Vertrags oder zur Durchführung vorvertraglicher Maßnahmen. Eine Weitergabe an Dritte erfolgt nur, wenn dies zur Vertragserfüllung notwendig ist (z. B. bei Subunternehmern) oder gesetzlich vorgeschrieben ist.",
+    "security_title": "Datensicherheit",
+    "security_text_1": "Alle Systeme und Datenverarbeitungsprozesse bei SauberFix Gebäudereinigung sind durch geeignete technische und organisatorische Maßnahmen geschützt, um die Sicherheit personenbezogener Daten zu gewährleisten und einen unbefugten Zugriff, Verlust oder Missbrauch zu verhindern.",
+    "security_text_2": "Unsere Mitarbeiter sind gemäß § 26 BDSG-neu bzw. Art. 28 DSGVO auf Vertraulichkeit verpflichtet und regelmäßig im Umgang mit sensiblen Daten geschult."
+  },
+  "agb": {
+    "title": "A G B",
+    "subtitle": "Allgemeine Geschäftsbedingungen (AGB) der Sauberfix Gebäudereinigung",
+    "section1_title": "Geltungsbereich",
+    "section1_text": "Diese AGB gelten für alle Verträge zwischen Sauberfix Gebäudereinigung, Hauptstraße 36, 71686 Remseck am Neckar (nachfolgend „Auftragnehmer“) und dessen Kunden (nachfolgend „Auftraggeber“), unabhängig davon, ob es sich um private oder gewerbliche Auftraggeber handelt. Abweichende Bedingungen des Auftraggebers gelten nur, wenn sie vom Auftragnehmer schriftlich anerkannt wurden.",
+    "section2_title": "Vertragsgegenstand",
+    "section2_text": "Der Auftragnehmer erbringt Reinigungsdienstleistungen im Bereich der Gebäudereinigung, insbesondere Unterhaltsreinigung, Glasreinigung, Sonderreinigungen (z. B. Bauendreinigung), Grundreinigung, Teppichreinigung) sowie weitere vereinbarte Reinigungsarbeiten. Der genaue Leistungsumfang ergibt sich aus dem individuellen Angebot oder Vertrag.",
+    "section3_title": "Vertragsabschluss",
+    "section3_text": "Ein Vertrag kommt durch schriftliche oder mündliche Auftragsbestätigung oder durch tatsächlichen Beginn der Arbeiten zustande. Mündliche Nebenabreden bedürfen der schriftlichen Bestätigung.",
+    "section4_title": "Preise und Zahlungsbedingungen",
+    "section4_text": "Alle Preise verstehen sich netto zuzüglich der gesetzlichen Mehrwertsteuer, sofern der Auftraggeber kein Verbraucher ist. Rechnungen sind, sofern nicht anders vereinbart, innerhalb von 14 Tagen nach Rechnungsdatum ohne Abzug zu zahlen. Bei Zahlungsverzug behalten wir uns das Recht vor, weitere Leistungen einzustellen.",
+    "section5_title": "Leistungserbringung und Mitwirkungspflicht",
+    "section5_text": "Die Reinigung erfolgt zu den vereinbarten Terminen. Der Auftraggeber hat dafür Sorge zu tragen, dass Zugang zu den Räumlichkeiten gewährt wird. Wird der Zugang nicht ermöglicht, trägt der Auftraggeber die Kosten des ausgefallenen Termins.",
+    "section6_title": "Glas- und Sonderreinigungen",
+    "section6_text": "Bei Glas- und Sonderreinigungen ist der Auftraggeber verpflichtet, empfindliche Materialien oder besondere Anforderungen vor Arbeitsbeginn mitzuteilen. Für Schäden an empfindlichen oder nicht sachgemäß gekennzeichneten Oberflächen haftet der Auftragnehmer nicht.",
+    "section7_title": "Haftung und Gewährleistung",
+    "section7_text": "Der Auftragnehmer haftet nur für Schäden, die auf grobe Fahrlässigkeit oder Vorsatz zurückzuführen sind. Bei berechtigten Mängeln erfolgt eine Nachbesserung. Beanstandungen sind schriftlich innerhalb von 24 Stunden nach Leistungserbringung zu melden.",
+    "section8_title": "Vertragsdauer und Kündigung",
+    "section8_text": "Bei Dauerschuldverhältnissen (z. B. regelmäßige Unterhaltsreinigung) beträgt die Kündigungsfrist 4 Wochen zum Monatsende. Das Recht zur fristlosen Kündigung aus wichtigem Grund bleibt unberührt.",
+    "section9_title": "Datenschutz",
+    "section9_text": "Die zur Vertragserfüllung erforderlichen personenbezogenen Daten werden gemäß DSGVO gespeichert und verarbeitet. Eine Weitergabe an Dritte erfolgt nur, soweit dies zur Leistungserbringung notwendig ist.",
+    "section10_title": "Gerichtsstand und anwendbares Recht",
+    "section10_text": "Es gilt das Recht der Bundesrepublik Deutschland. Ist der Auftraggeber Kaufmann, ist der Gerichtsstand der Sitz des Auftragnehmers.",
+    "section11_title": "Salvatorische Klausel",
+    "section11_text": "Sollten einzelne Bestimmungen dieser AGB unwirksam sein, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt. Die unwirksame Regelung wird durch eine rechtsgültige ersetzt, die dem wirtschaftlichen Zweck am nächsten kommt."
+  },
+  "barrierefreiheit": {
+    "title": "ERKLÄRUNG ZUR BARRIEREFREIHEIT",
+    "intro": "Dies ist eine Erklärung zur Barrierefreiheit von Sauberfix.",
+    "compliance_status_title": "Konformitätsstatus",
+    "compliance_status_text": "Die Web Content Accessibility Guidelines (WCAG) definieren Anforderungen an Designer und Entwickler, um die Zugänglichkeit für Menschen mit Behinderungen zu verbessern. Sie definieren drei Konformitätsstufen: Stufe A, Stufe AA und Stufe AAA. Sauberfix ist teilweise konform mit WCAG 2.0 Stufe AA. 'Teilweise konform' bedeutet, dass einige Teile des Inhalts nicht vollständig dem Barrierefreiheitsstandard entsprechen.",
+    "feedback_title": "Rückmeldung",
+    "feedback_text_1": "Wir freuen uns über Ihr Feedback zur Zugänglichkeit von Sauberfix. Bitte informieren Sie uns, wenn Sie auf Barrieren gestoßen sind auf Sauberfix:",
+    "feedback_phone": "Telefon: +49 (0) 15254153324",
+    "feedback_email": "E-Mail: kontakt@sauberfix.info",
+    "feedback_address": "Besucheradresse: Hauptstr. 36",
+    "date_title": "Datum",
+    "date_text": "Diese Erklärung wurde erstellt am 23. Mai 2025 mithilfe des W3C Accessibility Statement Generator Tools."
+  },
   "footer": {
     "company_name": "Sauberfix",
-    "company_slogan": "Leo elementum iaculis quam massa vitae odio sed. Morbi tincidunt senectus.",
+    "company_slogan": "Erfahrung in der Reinigung, Ihre Seelenruhe ist unsere Priorität.",
     "links_title": "Links",
     "services_title": "Dienstleistungen",
     "contact_title": "Kontaktieren Sie Uns",
     "contact_text": "Unser Support- und Verkaufsteam steht Ihnen rund um die Uhr zur Beantwortung Ihrer Anfragen zur Verfügung",
     "email_address": "kontakt@sauberfix.info",
-    "phone_number": "0155 63742675",
+    "phone_number": "+49 155 63742675",
     "follow_us": "Folgen Sie uns",
     "copyright": "COPYRIGHT © 2023 | DESIGN VON",
-    "terms_of_use": "TERM OF USE",
-    "privacy_policy": "PRIVACY POLICY"
+    "Impressum": "Impressum",
+    "Datenschutz": "Datenschutz ",
+    "AGB": "AGB",
+    "Barrierefreiheit": "Barrierefreiheit"
+  },
+  "error_404_page": {
+    "title": "Error 404", 
+    "subtitle": "Seite Nicht Gefunden",
+    "button_text": "Zur Startseite"
   }
 }

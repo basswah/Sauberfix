@@ -86,3 +86,16 @@
     font-size: var(--font-size-sm);
   }
 }
+
+@media (min-width : 950px) and (max-width: 1180px) {
+  .flag-icon {
+    width: 16px;
+    height: 12px;
+  }
+  .language-selector {
+    font-size: 12px;
+  }
+.current-language-display {
+  padding: 5px 8px;
+}
+} 

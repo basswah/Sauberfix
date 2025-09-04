@@ -8,18 +8,28 @@ import { LogoFooter } from "../../assets";
 import "./Footer.css";
 import type { Service } from "../../Tyeps";
 
-
 const Footer = () => {
   const { t } = useTranslation();
-  const servicesList = t("what_we_do.services", {
+  const servicesList = t("what_we_do.services_list", {
     returnObjects: true,
   }) as Service[];
+
+  const handleScroll = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
 
   return (
     <footer className="footer-container">
       <div className="main-footer">
         <div className="footer-section company-info">
-          <Link to="/" className="footer-logo">
+          <Link
+            to="/"
+            className="footer-logo"
+            onClick={() => window.scrollTo(0, 0)}
+          >
             <img src={LogoFooter} alt="Sauberfix Logo" />
           </Link>
           <p className="company-description">{t("footer.company_slogan")}</p>
@@ -31,13 +41,13 @@ const Footer = () => {
               <FaTiktok />
             </a>
             <a
-              href="http://googleusercontent.com/www.instagram.com/3"
+              href="https://www.instagram.com/sauber.fix?igsh=cTZuZHV3MWkzeW1z&utm_source=qr"
               aria-label="Instagram"
             >
               <BiLogoInstagramAlt />
             </a>
             <a
-              href="http://googleusercontent.com/www.facebook.com/3"
+              href="https://www.facebook.com/share/1GZMGmBBXe/?mibextid=wwXIfr"
               aria-label="Facebook"
             >
               <FaFacebookF />
@@ -49,13 +59,19 @@ const Footer = () => {
           <h3>{t("footer.links_title")}</h3>
           <ul>
             <li>
-              <Link to="/">{t("navbar.home")}</Link>
+              <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+                {t("navbar.home")}
+              </Link>
             </li>
             <li>
-              <Link to="/about">{t("navbar.about")}</Link>
+              <Link to="/#AboutUs" onClick={() => handleScroll("AboutUs")}>
+                {t("navbar.about")}
+              </Link>
             </li>
             <li>
-              <Link to="/services">{t("navbar.services")}</Link>
+              <Link to="/services" onClick={() => window.scrollTo(0, 0)}>
+                {t("navbar.services")}
+              </Link>
             </li>
           </ul>
         </div>
@@ -74,14 +90,11 @@ const Footer = () => {
             <h3>{t("footer.contact_title")}</h3>
             <p>{t("footer.contact_text")}</p>
           </div>
-          <a
-            href={`mailto:${t("footer.email_address")}`}
-            className="contact-info"
-          >
+          <a href="mailto:kontakt@sauberfix.info" className="contact-info">
             <IoMailOpenOutline />
             kontakt@sauberfix.info
           </a>
-          <a href={`tel:${t("footer.phone_number")}`} className="contact-info">
+          <a href="tel:tel:+49 155 63742675" className="contact-info">
             <TbPhoneCall />
             0155 63742675
           </a>
@@ -91,9 +104,21 @@ const Footer = () => {
       <div className="footer-bottom">
         <p>{t("footer.copyright")}</p>
         <div className="legal-links">
-          <Link to="/terms-of-use">{t("footer.terms_of_use")}</Link>
+          <Link to="/Impressum" onClick={() => window.scrollTo(0, 0)}>
+            {t("footer.Impressum")}
+          </Link>
           <p>|</p>
-          <Link to="/privacy-policy">{t("footer.privacy_policy")}</Link>
+          <Link to="/Datenschutz " onClick={() => window.scrollTo(0, 0)}>
+            {t("footer.Datenschutz")}
+          </Link>
+          <p>|</p>
+          <Link to="/AGB" onClick={() => window.scrollTo(0, 0)}>
+            {t("footer.AGB")}
+          </Link>
+          <p>|</p>
+          <Link to="/Barrierefreiheit" onClick={() => window.scrollTo(0, 0)}>
+            {t("footer.Barrierefreiheit")}
+          </Link>
         </div>
       </div>
     </footer>

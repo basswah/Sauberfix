@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 const AboutUsMainPage = () => {
   const { t } = useTranslation();
   return (
-    <div className="AboutUs_mainPage">
+    <div className="AboutUs_mainPage" id="AboutUs">
       <div className="AboutUsPic1">
         <img
           src={AboutUsPic1}

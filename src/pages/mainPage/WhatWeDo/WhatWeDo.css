@@ -10,8 +10,6 @@
   gap: var(--spacing-xl);
 }
 
-
-
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -19,4 +17,3 @@
   justify-content: center;
   gap: var(--spacing-xl);
 }
-

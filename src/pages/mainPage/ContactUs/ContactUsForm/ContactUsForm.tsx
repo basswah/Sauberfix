@@ -3,13 +3,12 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import "./ContactUsForm.css";
 import { useTranslation } from "react-i18next";
 import type { FormData } from "../../../../Tyeps";
-import { ContactUsFormSchema } from "../../../../components/Forms/formValidationSchema";
+import { getContactUsFormSchema } from "../../../../components/Forms/formValidationSchema";
 
 const ContactUsForm = () => {
   const { t } = useTranslation();
 
   const [submittedData, setSubmittedData] = useState<FormData | null>(null);
-  console.log(submittedData);
 
   const initialValues: FormData = {
     name: "",
@@ -17,17 +16,21 @@ const ContactUsForm = () => {
     message: "",
   };
 
+  // ⚠️ استدعاء الدالة هنا لإنشاء الـ schema بشكل ديناميكي
+  const validationSchema = getContactUsFormSchema(t);
+
   const onSubmit = (values: FormData, { resetForm }: any) => {
     console.log("تم إرسال البيانات:", values);
     setSubmittedData(values);
     resetForm();
+    console.log(submittedData);
   };
 
   return (
     <div className="form-page-container">
       <Formik
         initialValues={initialValues}
-        validationSchema={ContactUsFormSchema}
+        validationSchema={validationSchema}
         onSubmit={onSubmit}
       >
         {({ isSubmitting, touched, errors }) => (

@@ -1,0 +1,45 @@
+.datenschutz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  padding: var(--spacing-xxl) var(--spacing-xl);
+  background-color: var(--background-color);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.datenschutz-title {
+  font-size: var(--font-size-xxxl);
+  font-weight: var(--font-weight-bold);
+  color: var(--primary-color);
+  margin-block-end: var(--spacing-xl);
+}
+
+.datenschutz-intro {
+  font-size: var(--font-size-md);
+  color: var(--text-color-dark);
+  line-height: 1.6;
+  max-width: 800px;
+}
+
+.datenschutz-section {
+  margin-block-start: var(--spacing-xxl);
+  text-align: left;
+}
+
+.section-title {
+  font-size: var(--font-size-xxl);
+  font-weight: var(--font-weight-semibold);
+  color: var(--primary-color);
+  margin-block-end: var(--spacing-lg);
+  text-align: center;
+}
+
+.datenschutz-section p {
+  color: var(--gray-color);
+  font-size: var(--font-size-md);
+  line-height: 1.6;
+  margin-block-end: var(--spacing-md);
+}

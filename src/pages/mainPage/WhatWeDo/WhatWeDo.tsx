@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 const WhatWeDo = () => {
   const { t } = useTranslation();
-  const servicesList = t("what_we_do.services", {
+  const servicesList = t("what_we_do.services_list", {
     returnObjects: true,
   }) as Service[];
 
@@ -45,7 +45,11 @@ const WhatWeDo = () => {
           />
         ))}
       </div>
-      <Link to="" className="goTo-sevices">
+      <Link
+        to="/services"
+        className="goTo-sevices"
+        onClick={() => window.scrollTo(0, 0)}
+      >
         {t("hero.view_services_btn")} <LuArrowUpRight />
       </Link>
     </div>

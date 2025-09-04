@@ -1,0 +1,46 @@
+.impressum-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  padding: var(--spacing-xl);
+  background-color: var(--background-color);
+}
+
+.impressum-title {
+  font-size: var(--font-size-xxxl);
+  font-weight: var(--font-weight-bold);
+  color: var(--primary-color);
+  margin-block-end: var(--spacing-xl);
+}
+
+.impressum-content {
+  color: var(--text-color-dark);
+  font-size: var(--font-size-lg);
+  line-height: 1.8;
+  margin-block-end: var(--spacing-xl);
+}
+
+.impressum-content a {
+  color: var(--primary-color);
+  text-decoration: none;
+  display: block;
+}
+
+.impressum-content a:hover {
+  text-decoration: underline;
+}
+
+.impressum-content p,
+.impressum-description {
+  margin-block-end: var(--spacing-xs);
+  line-height: 1.6;
+}
+
+.impressum-description {
+  color: var(--gray-color);
+  font-size: var(--font-size-md);
+  max-width: 600px;
+}

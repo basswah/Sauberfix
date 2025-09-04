@@ -8,13 +8,15 @@
   },
   "contact_info": {
     "call_us": "Call Us",
-    "email_us": "E-mail Us"
+    "email_us": "E-mail Us",
+    "phone_number": "+49 155 63742675",
+    "email_address": "kontakt@sauberfix.info"
   },
   "hero": {
-    "title_part1": "We Clean,",
+    "title_part1": "We Clean.",
     "title_part2": "You Relax.",
     "paragraph": "cleaning services for all your needs",
-    "view_services_btn": "view all Services",
+    "view_services_btn": "View All Services",
     "flow_message1": {
       "title": "Best",
       "subtitle": "Cleaning Service"
@@ -25,13 +27,13 @@
     }
   },
   "about_us": {
-    "title": "about us",
+    "title": "About Us",
     "paragraph": "As an experienced company, we strive to continuously optimize our services and provide you with the best solutions. Your satisfaction is our top priority, and we pride ourselves on always striving for outstanding quality."
   },
   "what_we_do": {
-    "title": "what we Do",
-    "paragraph": "Always Provide The Best Service",
-    "services": [
+    "title": "Our Services",
+    "paragraph": "We Make Clean Easier For You",
+    "services_list": [
       {
         "id": "1",
         "icon": "./photos/windowClean.svg",
@@ -58,12 +60,65 @@
       }
     ]
   },
+  "services_page": {
+    "title": "Our Services",
+    "subtitle": "We Make Clean Easier For You",
+    "contactUs": {
+      "title": "Have Any Question ?",
+      "paragraph": "Contact us by our e-mail or our number ",
+      "email": "Mail : ",
+      "phone": "Phone : "
+    },
+    "services_list": [
+      {
+        "id": "1",
+        "title": "Space Clearing",
+        "description": "Clearing spaces after moving out, bereavement, workspace shutdowns, or construction debris removal.",
+        "img": "./photos/ServicesPagePhotos/SpaceClearing.webp",
+        "button": "Book an appointment",
+        "url": ""
+      },
+      {
+        "id": "2",
+        "title": "Glass Cleaning",
+        "description": "Interior & exterior window cleaning, frame cleaning, shopfront glass, mirrors, and all glass surfaces.",
+        "img": "./photos/ServicesPagePhotos/GlassCleaning.webp",
+        "button": "Book an appointment",
+        "url": ""
+      },
+      {
+        "id": "3",
+        "title": "Office Cleaning",
+        "description": "Dust removal, floor cleaning, and desk organizing for a tidy and productive workspace.",
+        "img": "./photos/ServicesPagePhotos/OfficeCleaning.webp",
+        "button": "Book an appointment",
+        "url": ""
+      },
+      {
+        "id": "4",
+        "title": "Building Cleaning",
+        "description": "Cleaning of interior and exterior walls, including staircases and entryways.",
+        "img": "./photos/ServicesPagePhotos/BuildingCleaning.webp",
+        "button": "Book an appointment",
+        "url": ""
+      },
+      {
+        "id": "5",
+        "title": "Custom Cleaning Services",
+        "description": "You can choose several services in one book.",
+        "img": "./photos/ServicesPagePhotos/CustomCleaningServices.webp",
+        "button": "Book an appointment",
+        "url": ""
+      }
+    ]
+  },
   "contact_us": {
     "title": "Contact Us",
     "text": "Fill up the form and our Team will get <br /> back to you within 24 hours.",
     "phone_label": "Phone",
     "mail_label": "Mail",
-    "location_label": "Location"
+    "location_label": "Location",
+    "address": "Hauptstraße 36, 71686 Remseck a. N."
   },
   "form": {
     "name_label": "Name*",
@@ -79,20 +134,86 @@
     "message_required": "Message is required",
     "message_min_length": "Message must be at least 20 characters long"
   },
-
+  "impressum": {
+    "title": "Legal Notice",
+    "companyName": "SauberFix Gebäudereinigung",
+    "address": "Hauptstraße 36",
+    "city": "71686 Remseck a. N.",
+    "phone": "+49 (0) 15254153324",
+    "email": "kontakt@sauberfix.info",
+    "website": "www.sauberfix.info",
+    "managingDirectors": "Managing Directors: Ghaith Alkhouli & Abdullah Alkhouli GbR",
+    "description": "This is the legal notice for SauberFix, your professional cleaning company."
+  },
+  "datenschutz": {
+    "title": "Privacy Policy",
+    "intro_text": "The personal data required to fulfill the contract will be stored and processed in accordance with the GDPR. Data will only be passed on to third parties if this is necessary for the provision of services.",
+    "control_title": "Control Over Data",
+    "control_text_1": "The contractor, SauberFix Gebäudereinigung, undertakes to treat all personal data of the client confidentially and to use it exclusively for the execution and processing of the agreed cleaning services.",
+    "control_text_2": "The client has the right at any time to request information about their personal data stored by us, and to demand that this data be corrected, blocked or deleted, provided that no legal obligation to retain data stands in the way.",
+    "control_text_3": "Data processing is carried out on the basis of Art. 6 Para. 1 lit. b GDPR for the fulfillment of a contract or for the implementation of pre-contractual measures. Data is only passed on to third parties if this is necessary for the fulfillment of the contract (e.g. subcontractors) or is prescribed by law.",
+    "security_title": "Data Security",
+    "security_text_1": "All systems and data processing processes at SauberFix Gebäudereinigung are protected by suitable technical and organizational measures to ensure data security and to prevent unauthorized access, loss or misuse.",
+    "security_text_2": "Our employees are obliged to maintain confidentiality in accordance with § 26 BDSG-neu and Art. 28 GDPR and are regularly trained in handling sensitive data."
+  },
+  "agb": {
+    "title": "General Terms and Conditions",
+    "subtitle": "General Terms and Conditions (AGB) of Sauberfix Gebäudereinigung",
+    "section1_title": "Scope of Application",
+    "section1_text": "These General Terms and Conditions apply to all contracts concluded between Sauberfix Gebäudereinigung (hereinafter referred to as 'the Contractor') and its customers (hereinafter referred to as 'the Client'), regardless of whether the client is a private or commercial customer. Deviating terms and conditions of the client are only valid if they have been accepted in writing.",
+    "section2_title": "Subject of the Contract",
+    "section2_text": "The Contractor provides cleaning services in the field of building cleaning, in particular maintenance cleaning, window cleaning, special cleaning (e.g. post-construction cleaning), basic cleaning, carpet cleaning, as well as other agreed cleaning work. The exact scope of services is specified in the individual offer or contract.",
+    "section3_title": "Conclusion of Contract",
+    "section3_text": "The contract is concluded by a written or verbal confirmation of the order or by the actual commencement of the work. Verbal ancillary agreements require written confirmation.",
+    "section4_title": "Prices and Terms of Payment",
+    "section4_text": "All prices are net plus the statutory value added tax, provided the client is not entitled to deduct input tax. Prices do not include any deductions and are payable within 14 days of the invoice date. In case of payment default, we reserve the right to suspend further services.",
+    "section5_title": "Service Provision and Duty to Cooperate",
+    "section5_text": "The cleaning is carried out on the agreed dates. The client is responsible for ensuring access to the premises is granted. If access is not possible, the client bears the costs of the canceled appointment.",
+    "section6_title": "Glass and Special Cleaning",
+    "section6_text": "In the case of glass and special cleaning, the client is obliged to inform the contractor of sensitive materials or special requirements before starting work. The contractor is not liable for damage to sensitive or improperly labeled surfaces.",
+    "section7_title": "Liability and Warranty",
+    "section7_text": "The contractor is only liable for damages resulting from gross negligence or intent. In the case of justified defects, a subsequent improvement is made. Complaints must be reported in writing within 24 hours after the service has been performed.",
+    "section8_title": "Contract Duration and Termination",
+    "section8_text": "In long-term contracts (e.g. regular maintenance cleaning), the notice period is 4 weeks to the end of the month. The right to extraordinary termination for good cause remains unaffected.",
+    "section9_title": "Data Protection",
+    "section9_text": "The personal data required to fulfill the contract will be stored and processed in accordance with the GDPR. Data will only be passed on to third parties if this is necessary for the provision of services.",
+    "section10_title": "Place of Jurisdiction and Applicable Law",
+    "section10_text": "The contract is subject to the law of the Federal Republic of Germany. If the client is a merchant, the place of jurisdiction is the headquarters of the contractor.",
+    "section11_title": "Salvatory Clause",
+    "section11_text": "Should individual provisions of these General Terms and Conditions be ineffective, the validity of the remaining provisions remains unaffected. The ineffective provision will be replaced by a valid one that comes closest to the commercial purpose of the ineffective provision."
+  },
+  "barrierefreiheit": {
+    "title": "ACCESSIBILITY STATEMENT",
+    "intro": "This is an accessibility statement from Sauberfix.",
+    "compliance_status_title": "Compliance Status",
+    "compliance_status_text": "The Web Content Accessibility Guidelines (WCAG) define requirements for designers and developers to improve accessibility for people with disabilities. There are three levels of conformance: A, AA, and AAA. Sauberfix is partially conformant with WCAG 2.0 Level AA. 'Partially conformant' means that some parts of the content do not fully conform to the accessibility standard.",
+    "feedback_title": "Feedback",
+    "feedback_text_1": "We welcome your feedback on the accessibility of Sauberfix. Please inform us if you encounter any barriers on Sauberfix:",
+    "feedback_phone": "Phone: +49 (0) 15254153324",
+    "feedback_email": "E-Mail: kontakt@sauberfix.info",
+    "feedback_address": "Visitor address: Hauptstr. 36",
+    "date_title": "Date",
+    "date_text": "This statement was created on May 23, 2025 with the help of the W3C Accessibility Statement Generator Tools."
+  },
   "footer": {
     "company_name": "Sauberfix",
-    "company_slogan": "Leo elementum iaculis quam massa vitae odio sed. Morbi tincidunt senectus.",
+    "company_slogan": "Expertise in cleaning, your peace of mind is our priority.",
     "links_title": "Links",
     "services_title": "Services",
     "contact_title": "Contact Us",
     "contact_text": "Our Support and Sales team is available 24/7 to answer your queries",
-    "address": "1111 Avenue Francis Road, Laval, USA",
-    "phone": "0155 63742675",
-    "email": "kontakt@sauberfix.info",
+    "email_address": "kontakt@sauberfix.info",
+    "phone_number": "+49 155 63742675",
     "follow_us": "Follow Us",
     "copyright": "COPYRIGHT © 2023 | DESIGN BY",
-    "terms_of_use": "TERM OF USE",
-    "privacy_policy": "PRIVACY POLICY"
+    "Impressum": "Legal Notice",
+    "Datenschutz": "Privacy Policy",
+    "AGB": "Terms & Conditions",
+    "Barrierefreiheit": "Accessibility"
+  },
+  "error_404_page": {
+    "title": "Error 404",
+    "subtitle": "Page Not Found",
+    "button_text": "Go To Main Page"
   }
 }

@@ -6,6 +6,9 @@
   padding: var(--spacing-md) 90px;
   color: var(--gray-color);
 }
+.Contact a {
+  color: var(--gray-color);
+}
 
 .contact-text {
   font-size: var(--font-size-md);
@@ -14,11 +17,15 @@
 .contct-social {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: var(--spacing-lg);
 }
 
 .contct-social a {
-  color: var(--gray-color);
+  display: grid;
+  align-content: center;
+
+  transition: color 0.3s ease;
 }
 
 .contct-social svg {
@@ -34,7 +41,6 @@
 }
 
 .contact-text .contact-bold {
-
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-md);
   line-height: 100%;
@@ -45,12 +51,20 @@
   display: flex;
   gap: var(--spacing-xs);
   align-items: center;
+  transition: color 0.3s ease;
 }
 
 .contact-call-us svg,
 .contact-Email svg {
   width: 30px;
   height: auto;
+}
+
+.contct-social a:hover,
+.contact-call-us:hover,
+.contact-Email:hover {
+  color: var(--text-color-light);
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 @media (max-width: 1280px) {

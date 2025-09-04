@@ -8,7 +8,7 @@
   box-shadow: 0px 5.2px 39px 0px var(--shadow-color-md);
   border-radius: var(--border-radius-sm);
   padding: var(--spacing-lg);
-  z-index: 10;
+  z-index: 100;
 }
 
 .res-nav-ele {

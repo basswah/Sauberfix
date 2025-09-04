@@ -16,3 +16,12 @@ export interface WhatWeDoCardProps {
   icon: string;
   description: string;
 }
+
+export interface ServiceCard {
+  id: string;
+  img: string;
+  title: string;
+  description: string;
+  button: string;
+  url: string;
+}

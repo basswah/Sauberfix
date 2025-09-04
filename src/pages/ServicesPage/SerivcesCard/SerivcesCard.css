@@ -1,0 +1,50 @@
+.SerivcesCard {
+  width: 300px;
+  height: 523px;
+  border-radius: 30.4px;
+  background-color: var(--text-color-light);
+  padding: 21px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.2s ease;
+}
+.SerivcesCard:hover {
+  box-shadow: 0 8px 16px rgba(var(--secondary-color-rgb), 0.2);
+  transform: scale(1.02);
+}
+
+.ser-card-title {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-md);
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-transform: capitalize;
+  margin-bottom: 13px;
+}
+
+.ser-card-description {
+  width: 90%;
+  font-style: 16px;
+  font-weight: var(--font-weight-regular);
+  color: var(--text-color-dark);
+}
+
+.ser-card-button {
+  width: fit-content;
+  padding: 4px 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: var(--primary-color);
+  border-radius: var(--border-radius-md);
+  text-transform: capitalize;
+  color: var(--text-color-light);
+  font-weight: var(--font-weight-semibold);
+  transition: 0.2s ease;
+}
+
+.ser-card-button:hover {
+  background-color: #12566b;
+  transform: scale(1.02);
+}

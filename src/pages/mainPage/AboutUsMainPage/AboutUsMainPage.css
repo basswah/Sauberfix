@@ -21,7 +21,7 @@
 }
 
 .AboutUsPic1 {
-  margin: 0 20px -5px;
+  margin: 0 20px -8px;
   position: relative;
 }
 .AboutUsPic1 img {
@@ -55,9 +55,8 @@
 .AboutUsText p {
   max-width: 660px;
   font-weight: var(--font-weight-medium);
-  font-size: var(--font-size-xl);
+  font-size: 1.5rem;
   line-height: var(--line-height-paragraph);
-  text-transform: capitalize;
   color: var(--text-color-dark);
   margin-bottom: var(--spacing-xxl);
   margin-left: 35px;
@@ -126,7 +125,7 @@
   }
   .AboutUsText p {
     font-size: 24px;
-    max-width: 500px;
+    max-width: 600px;
   }
 }
 

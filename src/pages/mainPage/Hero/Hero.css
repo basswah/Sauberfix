@@ -1,16 +1,20 @@
 .hero {
   display: flex;
-  height: 800px;
+  height: 80vh;
   position: relative;
 }
 
 .hero-text {
-  margin: 92px;
+  margin: 50px 92px;
   position: relative;
 }
 
 .langDe .hero-text {
   margin-right: 0;
+}
+
+.langDe .hero {
+  text-transform: none;
 }
 
 .hero-text h1 {
@@ -22,6 +26,9 @@
   color: var(--accent-color);
   white-space: nowrap;
   z-index: 1;
+}
+.langDe .hero-text h1 {
+  text-transform: none;
 }
 
 .hero-text h1 span {
@@ -38,6 +45,10 @@
   text-transform: capitalize;
 }
 
+.langDe .hero-text p {
+  text-transform: none;
+}
+
 .goTo-sevices {
   background-color: var(--primary-color);
   padding: var(--spacing-md);
@@ -51,8 +62,8 @@
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .goTo-sevices:hover {
-  background-color: #12566b; /* لون أغمق قليلاً من primary-color */
-  transform: scale(1.05); /* تكبير الزر بنسبة 5% */
+  background-color: #12566b;
+  transform: scale(1.05);
 }
 
 .hero .stars1 {
@@ -90,16 +101,18 @@
   position: absolute;
   bottom: 0;
   left: 3%;
+  transform: scale(0.8);
 }
 [dir="rtl"] .hero .cleaner {
-  transform: rotateY(180deg);
+  transform: rotateY(180deg) scale(0.8);
   left: 80%;
 }
 
 .hero-imgs-en {
   position: relative;
-  top: -200px;
-  width: 80%;
+  height: 120%;
+  top: -150px;
+  width: 100vw;
   right: 0px;
   background-color: var(--secondary-color);
   z-index: -1;
@@ -112,8 +125,9 @@
 
 .hero-imgs-ar {
   position: relative;
-  top: -200px;
-  width: 60%;
+  height: 120%;
+  top: -150px;
+  width: 100vw;
   left: 0;
   background-color: var(--secondary-color);
   z-index: -1;
@@ -124,9 +138,16 @@
   justify-content: center;
 }
 
+.hero-img {
+  width: fit-content;
+  position: relative;
+  bottom: -4%;
+}
+
 .WomanHero_img {
   width: 401px;
   height: auto;
+  transform: rotateY(180deg);
 }
 
 .flow-message1,
@@ -144,13 +165,13 @@
 }
 
 .flow-message1 {
-  top: 72%;
-  left: 31%;
+  top: 60%;
+  left: 0;
 }
 
 .flow-message1 h3 {
   font-weight: var(--font-weight-semibold);
-  font-size: 37.13px;
+  font-size: 28px;
   line-height: 1.2;
   letter-spacing: 0.2px;
 }
@@ -164,12 +185,8 @@
 }
 
 .flow-message2 {
-  right: 5%;
-  top: 44%;
-}
-
-.langDe .flow-message2 {
-  right: 5%;
+  right: -10%;
+  top: 32%;
 }
 
 .flow-message2 h4 {
@@ -189,10 +206,6 @@
 }
 
 @media (min-width: 1281px) {
-  .flow-message2 {
-    right: 20%;
-    top: 44%;
-  }
 }
 
 @media (max-width: 1280px) {
@@ -209,12 +222,14 @@
   .goTo-sevices {
     font-size: 13px;
   }
-
-  .flow-message2 {
-    right: 10%;
-  }
   .flow-message1 h3 {
     font-size: 25px;
+  }
+  .flow-message1 {
+    left: 12%;
+  }
+  .flow-message2 {
+    right: 0;
   }
   .flow-message1 img,
   .flow-message2 img {
@@ -226,6 +241,9 @@
   }
   .flow-message2 h4 {
     font-size: 15px;
+  }
+  .hero .cleaner {
+    transform: scale(0.8);
   }
   [dir="rtl"] .hero .cleaner {
     left: 70%;
@@ -257,7 +275,7 @@
     bottom: 60%;
   }
   .langDe .stars2 {
-    left: 200px;
+    left: 60%;
   }
   .hero .cleaner,
   .langDe .cleaner {
@@ -310,7 +328,7 @@
   }
   .hero .cleaner,
   .langDe .cleaner {
-    width: 150px;
-    left: -50px;
+    width: 200px;
+    left: -70px;
   }
 }

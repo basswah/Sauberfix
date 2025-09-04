@@ -94,6 +94,7 @@
 
 @media (max-width: 768px) {
   .form-page-container {
-    width: 80%;
+    width: 90%;
+    padding: 1rem 0.5rem;
   }
 }

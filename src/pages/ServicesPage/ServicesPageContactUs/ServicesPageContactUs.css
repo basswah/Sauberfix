@@ -1,0 +1,169 @@
+.sev_contactUs {
+  display: flex;
+  background-color: #e7f0fb;
+  width: 80%;
+  justify-content: space-between;
+  align-items: end;
+  border-radius: var(--border-radius-sm);
+  margin: 20px;
+  padding-top: 40px;
+}
+
+.boy-avatar {
+  width: 219px;
+}
+
+[dir="rtl"] .Girl-avatar,
+[dir="rtl"] .boy-avatar {
+  transform: rotatey(180deg);
+}
+
+.Girl-avatar {
+  width: 260px;
+}
+
+.sev_contactUs_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 37px;
+}
+
+.sev_contactUs_text h2 {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-xxl);
+  color: var(--primary-color);
+  margin-bottom: 17px;
+}
+
+.sev_contactUs_text p {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-md);
+  margin-bottom: 47px;
+  text-align: center;
+}
+.sev_contactUs_urls {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 24px;
+}
+
+.sev_contactUs_url {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+}
+
+.sev_contactUs_icon {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 100%;
+  display: grid;
+  color: var(--secondary-color);
+  transition: 0.2s ease;
+}
+
+.sev_contactUs_icon svg {
+  width: 34px;
+  height: auto;
+}
+
+.sev_contactUs_url p {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-regular);
+  color: var(--text-color-dark);
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.sev_contactUs_url p span {
+  font-weight: var(--font-weight-semibold);
+  font-size: 26px;
+  color: var(--secondary-color);
+  margin: 0 8px;
+}
+
+.sev_contactUs_url:hover {
+  .sev_contactUs_icon {
+    background-color: var(--secondary-color);
+    color: #fff;
+  }
+}
+
+@media (max-width: 1180px) {
+  .boy-avatar {
+    width: 170px;
+  }
+  .Girl-avatar {
+    width: 210px;
+  }
+  .sev_contactUs_text h2 {
+    font-size: var(--font-size-xl);
+  }
+  .sev_contactUs_text p {
+    font-size: var(--font-size-sm);
+  }
+  .sev_contactUs_icon svg {
+    width: 28px;
+  }
+  .sev_contactUs_url p {
+    font-size: var(--font-size-md);
+  }
+  .sev_contactUs_url p span {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 950px) {
+  .sev_contactUs {
+    width: 90%;
+  }
+  .boy-avatar {
+    display: none;
+  }
+  .sev_contactUs_text {
+    margin: 20px;
+  }
+  .sev_contactUs_url p {
+    font-size: var(--font-size-sm);
+  }
+  .sev_contactUs_url p span {
+    font-size: 16px;
+    margin: 0 4px;
+  }
+}
+
+@media (max-width: 750px) {
+  .Girl-avatar {
+    display: none;
+  }
+  .sev_contactUs {
+    justify-content: center;
+    align-items: center;
+  }
+  .sev_contactUs {
+    width: 95%;
+  }
+}
+
+@media (max-width: 500px) {
+  .sev_contactUs_text h2 {
+    font-size: var(--font-size-md);
+  }
+  .sev_contactUs_icon {
+    padding: 8px;
+  }
+  .sev_contactUs_icon svg {
+    width: 25px;
+  }
+  .sev_contactUs_url p {
+    font-size: 14px;
+  }
+  .sev_contactUs_url p span {
+    font-size: 14px;
+  }
+}

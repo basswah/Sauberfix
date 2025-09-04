@@ -9,31 +9,37 @@ const Contact = () => {
   const { t } = useTranslation();
   return (
     <div className="Contact">
-      <div className="contact-call-us">
+      <a href="tel:+49 155 63742675" className="contact-call-us">
         <TbPhoneCall />
         <p className="contact-text">
           {t("contact_info.call_us")} <span>:</span>{" "}
-          <span className="contact-bold">0155 63742675</span>
+          <span className="contact-bold">015563742675</span>
         </p>
-      </div>
+      </a>
       <div className="contct-social">
-        <a href="https://www.instagram.com/" aria-label="Instagram">
+        <a
+          href="https://www.instagram.com/sauber.fix?igsh=cTZuZHV3MWkzeW1z&utm_source=qr"
+          aria-label="Instagram"
+        >
           <BiLogoInstagramAlt />
         </a>
         <a href="https://www.tiktok.com/" aria-label="TikTok">
           <FaTiktok />
         </a>
-        <a href="https://www.facebook.com/" aria-label="Facebook">
+        <a
+          href="https://www.facebook.com/share/1GZMGmBBXe/?mibextid=wwXIfr"
+          aria-label="Facebook"
+        >
           <FaFacebookF />
         </a>
       </div>
-      <div className="contact-Email">
+      <a href="mailto:kontakt@sauberfix.info" className="contact-Email">
         <IoMailOpenOutline />
         <p className="contact-text">
           {t("contact_info.email_us")} <span>:</span>
           <span className="contact-bold">kontakt@sauberfix.info</span>
         </p>
-      </div>
+      </a>
     </div>
   );
 };

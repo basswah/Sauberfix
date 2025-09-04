@@ -15,7 +15,7 @@ import { motion } from "framer-motion";
 const ContactUs = () => {
   const { t } = useTranslation();
   return (
-    <div className="contactUs">
+    <div className="contactUs" id="Contact">
       <div className="text">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -47,13 +47,13 @@ const ContactUs = () => {
           viewport={{ once: true }}
           className="contactUs-links"
         >
-          <a href="tel:015563742675" className="contactInfo">
+          <a href="tel:+49 155 63742675" className="contactInfo">
             <div className="contactInfo-icon">
               <IoIosCall />
             </div>
             <div className="contactInfo-text">
               <h4>{t("contact_us.phone_label")}</h4>
-              <p>0155 63742675</p>
+              <p>015563742675</p>
             </div>
           </a>
           <a href="mailto:kontakt@sauberfix.info" className="contactInfo">
@@ -66,7 +66,7 @@ const ContactUs = () => {
             </div>
           </a>
           <a
-            href="https://maps.google.com/?q=1111+Avenue+Francis+Road,+Laval,+USA"
+            href="https://www.google.com/maps/search/?api=1&query=Hauptstraße+36,+71686+Remseck+a.+N"
             className="contactInfo"
           >
             <div className="contactInfo-icon">
@@ -74,7 +74,7 @@ const ContactUs = () => {
             </div>
             <div className="contactInfo-text">
               <h4>{t("contact_us.location_label")}</h4>
-              <p>1111 Avenue Francis Road, Laval, USA</p>
+              <p>Hauptstraße 36, 71686 Remseck a. N.</p>
             </div>
           </a>
         </motion.div>
