@@ -12,6 +12,17 @@
   z-index: 10;
 }
 
+.nav-Logo {
+  height: fit-content;
+  width: fit-content;
+  display: grid;
+}
+
+.nav-Logo img {
+  height: 60px;
+  width: auto;
+}
+
 .nav .nav-ele {
   display: flex;
 
@@ -76,7 +87,6 @@
 @media (max-width: 1300px) {
   .nav-Logo img {
     height: 55px;
-    width: auto;
   }
 
   .langde .callUs-button {

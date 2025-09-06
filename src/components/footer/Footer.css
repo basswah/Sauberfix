@@ -30,8 +30,9 @@
   margin-block-end: var(--spacing-md);
 }
 
-.company-info .footer-logo svg {
-  width: 50px;
+.company-info .footer-logo img {
+  height: 60px;
+  width: auto;
 }
 
 .company-info .company-description {

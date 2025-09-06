@@ -9,9 +9,8 @@ import translationAR from "./Locales/ar/translation.json";
 import translationDE from "./Locales/de/translation.json";
 
 // تعريف نوع موارد الترجمة
-// هذا يساعد في التحقق من الأخطاء والإكمال التلقائي لمفاتيح الترجمة
 export interface Resources {
-  translation: typeof translationEN; // نفترض أن جميع ملفات الترجمة لها نفس البنية
+  translation: typeof translationEN;
 }
 
 // الترجمات
@@ -25,18 +24,19 @@ const resources = {
   de: {
     translation: translationDE,
   },
-} as const; // استخدام 'as const' لتحديد أنواع محددة للغات
+} as const;
 
 i18n
-  .use(LanguageDetector) // اكتشاف لغة المستخدم
-  .use(initReactI18next) // تمرير نسخة i18n إلى react-i18next
+  .use(LanguageDetector)
+  .use(initReactI18next)
   .init<Resources>({
-    // هنا نحدد نوع الموارد
     resources,
-    fallbackLng: "en", // اللغة الافتراضية إذا فشل الكشف أو كانت اللغة غير متوفرة
-    debug: true, // تفعيل وضع التصحيح للتطوير (اجعله false في الإنتاج)
+    fallbackLng: "de", // تغيير اللغة الافتراضية إلى الألمانية
+    supportedLngs: ["de", "ar", "en"], // تحديد اللغات المدعومة مع وضع الألمانية أولاً
+    load: "languageOnly", // تحميل اللغة الرئيسية فقط
+    debug: false, // تعطيل وضع التصحيح في الإنتاج
     interpolation: {
-      escapeValue: false, // React يحمي بالفعل من XSS
+      escapeValue: false,
     },
     detection: {
       order: [

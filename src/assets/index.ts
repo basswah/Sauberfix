@@ -1,5 +1,5 @@
-import Logo from "./Logo.svg";
-import LogoFooter from "./logoFooter.svg";
+import Logo from "./Group 3676152.png";
+import LogoFooter from "./Group 3676152 (1).png";
 import Star from "./star.svg";
 import FlagAR from "./AR.jpg";
 import FlagEN from "./Eng.jpg";
