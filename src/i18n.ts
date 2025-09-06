@@ -31,24 +31,16 @@ i18n
   .use(initReactI18next)
   .init<Resources>({
     resources,
-    fallbackLng: "de", // تغيير اللغة الافتراضية إلى الألمانية
-    supportedLngs: ["de", "ar", "en"], // تحديد اللغات المدعومة مع وضع الألمانية أولاً
-    load: "languageOnly", // تحميل اللغة الرئيسية فقط
-    debug: false, // تعطيل وضع التصحيح في الإنتاج
+    fallbackLng: "de",
+    supportedLngs: ["de", "ar", "en"],
+    load: "languageOnly",
+    debug: false,
+    detection: {
+      order: ["localStorage", "navigator"], // تقليل خيارات الكشف عن اللغة
+      caches: ["localStorage"],
+    },
     interpolation: {
       escapeValue: false,
-    },
-    detection: {
-      order: [
-        "localStorage",
-        "navigator",
-        "cookie",
-        "sessionStorage",
-        "htmlTag",
-        "path",
-        "subdomain",
-      ],
-      caches: ["localStorage"],
     },
   });
 
