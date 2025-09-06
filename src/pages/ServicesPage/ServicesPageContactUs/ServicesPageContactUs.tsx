@@ -34,10 +34,7 @@ const ServicesPageContactUs = () => {
           viewport={{ once: true }}
           className="sev_contactUs_urls"
         >
-          <a
-            href={`mailto:${t("contact_info.email_address")}`}
-            className="sev_contactUs_url"
-          >
+          <a href="mailto:kontakt@sauberfix.info" className="sev_contactUs_url">
             <div className="sev_contactUs_icon">
               <IoMailOpenOutline />
             </div>
@@ -46,10 +43,7 @@ const ServicesPageContactUs = () => {
               {t("contact_info.email_address")}
             </p>
           </a>
-          <a
-            href={`tel:${t("contact_info.phone_number")}`}
-            className="sev_contactUs_url"
-          >
+          <a href="tel:+49 155 63742675" className="sev_contactUs_url">
             <div className="sev_contactUs_icon">
               <IoIosCall />
             </div>

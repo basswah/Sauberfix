@@ -28,11 +28,11 @@
   },
   "about_us": {
     "title": "Über Uns",
-    "paragraph": "Als erfahrenes Unternehmen Streben Wir danach Unsere Dienstleistungen kontinuierlich zu optimieren und Ihnen die besten Lösungen zu bieten. Ihre Zufriedenheit hat für uns höchste Priorität, und wir sind stolz darauf, stets nach herausragender Qualität zu streben."
+    "paragraph": "Als erfahrenes Unternehmen streben wir danach, unsere Dienstleistungen kontinuierlich zu optimieren und Ihnen die besten Lösungen anzubieten. Ihre Zufriedenheit hat für uns oberste Priorität."
   },
   "what_we_do": {
     "title": "Unsere Dienstleistungen",
-    "paragraph": "Wir Machen Sauberkeit Einfacher Für Sie",
+    "paragraph": "Wir machen Sauberkeit einfacher für Sie",
     "services_list": [
       {
         "id": "1",
@@ -81,7 +81,7 @@
       {
         "id": "2",
         "title": "Glasreinigung",
-        "description": "Reinigung von innen- und Außenfenstern, Rahmenreinigung, Schaufensterglas, Spiegeln und allen Glasoberflächen.",
+        "description": "Reinigung von innen- und Außenfenstern, Rahmenreinigung, Schaufensterglas, Spiegel und allen Glasoberflächen.",
         "img": "./photos/ServicesPagePhotos/GlassCleaning.webp",
         "button": "Termin vereinbaren",
         "url": "https://docs.google.com/forms/d/e/1FAIpQLSfHamsrVv3VTmmcmrATO19Axb0shp_8HHoiJyQ7KwLIRPVXLQ/viewform"
@@ -97,15 +97,15 @@
       {
         "id": "4",
         "title": "Gebäudereinigung",
-        "description": "Reinigung von innen- und Außenwänden, einschließlich Treppenhäusern und Eingängen.",
+        "description": "Reinigung von innen- und Außenwänden, einschließlich Treppenhäuser und Eingänge",
         "img": "./photos/ServicesPagePhotos/BuildingCleaning.webp",
         "button": "Termin vereinbaren",
         "url": "https://docs.google.com/forms/d/e/1FAIpQLSd9Nt4DeQPIkcV-K9JyuTG2TAVV_YUc3LrVvDh4SkuaEsIshg/viewform"
       },
       {
         "id": "5",
-        "title": "Angepasste Reinigungsdienst",
-        "description": "Sie können mehrere Dienstleistungen in einem Buch auswählen.",
+        "title": "Angepasster Reinigungsdienst",
+        "description": "Sie können mehrere Dienstleistungen in einer Buchung wählen.",
         "img": "./photos/ServicesPagePhotos/CustomCleaningServices.webp",
         "button": "Termin vereinbaren",
         "url": "https://docs.google.com/forms/d/e/1FAIpQLScobgoredqO2lDYPQv7QzDLgq5CSL3xL5QzCZBwxCjova0U8w/viewform"
@@ -114,7 +114,7 @@
   },
   "contact_us": {
     "title": "Kontaktieren Sie uns",
-    "text": "Füllen Sie das Formular aus und unser Team wird sich <br /> innerhalb von 24 Stunden bei Ihnen melden.",
+    "text": "Füllen sie das Formular aus und unser Team wird <br/> sich schnellst möglich bei ihnen melden",
     "phone_label": "Telefon",
     "mail_label": "E-Mail",
     "location_label": "Standort",
@@ -212,7 +212,7 @@
     "Barrierefreiheit": "Barrierefreiheit"
   },
   "error_404_page": {
-    "title": "Error 404", 
+    "title": "Error 404",
     "subtitle": "Seite Nicht Gefunden",
     "button_text": "Zur Startseite"
   }

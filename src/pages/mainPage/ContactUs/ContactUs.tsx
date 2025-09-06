@@ -62,7 +62,7 @@ const ContactUs = () => {
             </div>
             <div className="contactInfo-text">
               <h4>{t("contact_us.mail_label")}</h4>
-              <p>kontakt@sauberfix.info</p>
+              <p>Kontakt@sauberfix.info</p>
             </div>
           </a>
           <a
