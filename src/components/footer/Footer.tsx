@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { BiLogoInstagramAlt } from "react-icons/bi";
-import { FaFacebookF, FaTiktok } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 import { IoMailOpenOutline } from "react-icons/io5";
 import { TbPhoneCall } from "react-icons/tb";
 import { LogoFooter } from "../../assets";
@@ -44,7 +43,7 @@ const Footer = () => {
               href="https://www.instagram.com/sauber.fix?igsh=cTZuZHV3MWkzeW1z&utm_source=qr"
               aria-label="Instagram"
             >
-              <BiLogoInstagramAlt />
+              <FaInstagram />
             </a>
             <a
               href="https://www.facebook.com/share/1GZMGmBBXe/?mibextid=wwXIfr"
@@ -54,7 +53,6 @@ const Footer = () => {
             </a>
           </div>
         </div>
-
         <div className="footer-section">
           <h3>{t("footer.links_title")}</h3>
           <ul>

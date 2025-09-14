@@ -6,9 +6,8 @@
   background: var(--background-color);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: var(--spacing-lg);
+  gap: var(--spacing-xl);
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -18,7 +17,8 @@
 
 .card-icon {
   width: 68px;
-  margin-bottom: var(--spacing-sm);
+  height: 68px;
+  margin-top: 23px;
 }
 
 .card-title {
