@@ -28,7 +28,7 @@ export const Hero = () => {
         >
           {t("hero.title_part1")}
           <span> {t("hero.title_part2")}</span>
-        </motion.h1>
+        </motion.h1> 
         <motion.p
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}

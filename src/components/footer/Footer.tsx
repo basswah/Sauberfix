@@ -35,7 +35,7 @@ const Footer = () => {
           <p className="company-description">{t("footer.company_slogan")}</p>
           <div className="social-links">
             <a
-              href="http://googleusercontent.com/www.tiktok.com/1"
+              href="https://www.tiktok.com/@sauber.fix6?_t=ZN-8zgz4ZuXEww&_r=1"
               aria-label="TikTok"
             >
               <FaTiktok />
@@ -79,9 +79,11 @@ const Footer = () => {
         <div className="footer-section">
           <h3>{t("footer.services_title")}</h3>
           <ul>
-            {servicesList.map((service) => (
-              <li key={service.id}>{service.title}</li>
-            ))}
+            {[...servicesList]
+              .sort((a, b) => (a.id === "3" ? -1 : b.id === "3" ? 1 : 0))
+              .map((service) => (
+                <li key={service.id}>{service.title}</li>
+              ))}
           </ul>
         </div>
 

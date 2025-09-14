@@ -316,6 +316,9 @@
   }
 }
 @media (max-width: 481px) {
+  .hero {
+    height: 530px;
+  }
   .langDe .hero-text h1 {
     font-size: 23px;
   }

@@ -23,7 +23,10 @@ const Contact = () => {
         >
           <BiLogoInstagramAlt />
         </a>
-        <a href="https://www.tiktok.com/" aria-label="TikTok">
+        <a
+          href="https://www.tiktok.com/@sauber.fix6?_t=ZN-8zgz4ZuXEww&_r=1"
+          aria-label="TikTok"
+        >
           <FaTiktok />
         </a>
         <a
