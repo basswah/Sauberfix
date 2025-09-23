@@ -36,7 +36,7 @@ i18n
     load: "languageOnly",
     debug: false,
     detection: {
-      order: ["localStorage", "navigator"], // تقليل خيارات الكشف عن اللغة
+      order: ["localStorage"], // تقليل خيارات الكشف عن اللغة
       caches: ["localStorage"],
     },
     interpolation: {
